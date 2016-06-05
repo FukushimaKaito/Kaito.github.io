@@ -122,7 +122,7 @@ html, body {
 .mdl-demo section.section--center {
   max-width: 860px;
 }
-.mdl-demo #features section.section--center {
+.mdl-demo #works section.section--center {
   max-width: 620px;
 }
 .mdl-demo section > header{
@@ -218,13 +218,13 @@ html, body {
 .mdl-demo .mdl-card .mdl-card__supporting-text > h3:first-child {
   margin-bottom: 24px;
 }
-.mdl-demo .mdl-layout__tab-panel:not(#overview) {
+.mdl-demo .mdl-layout__tab-panel:not(#profile) {
   background-color: white;
 }
-.mdl-demo #features section {
+.mdl-demo #works section {
   margin-bottom: 72px;
 }
-.mdl-demo #features h4, #features h5 {
+.mdl-demo #works h4, #works h5 {
   margin-bottom: 16px;
 }
 .mdl-demo .toc {
