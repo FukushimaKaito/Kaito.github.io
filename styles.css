@@ -193,7 +193,7 @@ html, body {
 .mdl-demo section .section__circle-container > .section__circle-container__circle {
   width: 64px;
   height: 64px;
-  border-radius: 32px;
+  border-radius: 3px;
   margin: 8px 0;
 }
 .mdl-demo section.section--footer .section__circle--big {
@@ -255,4 +255,13 @@ html, body {
 }
 .mdl-demo .mdl-menu__container {
   z-index: 99;
+}
+.Twicolor{
+    color:#00aced;
+}
+.FBcolor{
+    color:#305097;
+}
+.Tumblrcolor{
+    color:#34526f;
 }
