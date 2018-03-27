@@ -148,10 +148,10 @@
                             <li>Cool & Cute</li>
                             <li>Easy</li>
                         </ul>
-                        <a href="http://fukushimakaito.github.io/Thumbnaiter/"><img src="./image/thum.png" width="100%" alt="さむねーたートップ画" /></a>
                         <p>
                             製作期間は約2週間です．口パーツに遊び心を持たせています．HTML5/Canvasを使用しているのでレガシーブラウザでは正しく動作しない場合があります．
                         </p>
+                        <a href="http://fukushimakaito.github.io/Thumbnaiter/"><img src="./image/thum.png" width="100%" alt="さむねーたートップ画" /></a>
                         <h5 id="lorem2">C</h5>
                         <p>
                             周波数特性を調べることができる<a href="https://github.com/fukushimakaito/Amplitude/blob/master/Amplitude/Amplitude.c">Cプログラム</a>を書きました．
@@ -172,6 +172,12 @@
                 </section>
             </div>
             <footer class="mdl-mega-footer">
+              <small>&copy; 2016-<span id="thisYear"></span> Fukushima Kaito</small>
+                <script type="text/javascript">
+                    date = new Date();
+                    thisYear = date.getFullYear();
+                    document.getElementById("thisYear").innerHTML = thisYear;
+                </script>
             </footer>
         </main>
     </div>
